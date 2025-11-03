@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-18T05:20:14.417339Z</Created>
+    <LastChange>2025-09-18T05:20:14.417339Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1315" imageFilename="pakshikachaturmasika-samvatsarika-pratikramanavidhah_page_001.jpg">
+    <TextRegion id="region_0" custom="0">
+      <Coords points="1662,618 1651,732 1608,759 1464,833 1417,838 924,847 863,847 857,565 857,520 938,375 1133,362 1470,352 1538,350 1566,350 1657,497 1662,569"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="941,408 1562,402 1562,372 941,378 941,408"/></TextLine><TextLine id="line_processed_2"><Coords points="1045,459 1461,456 1461,436 1045,439 1045,459"/></TextLine><TextLine id="line_processed_3"><Coords points="1321,537 1653,531 1653,505 1321,511 1321,537"/></TextLine><TextLine id="line_processed_4"><Coords points="860,547 1119,543 1119,512 860,516 860,547"/></TextLine><TextLine id="line_processed_5"><Coords points="1658,584 865,591 865,615 1658,609 1658,584"/></TextLine><TextLine id="line_processed_6"><Coords points="1655,622 1460,628 1460,641 1655,636 1655,622"/></TextLine><TextLine id="line_processed_7"><Coords points="872,689 1012,689 1012,669 872,669 872,689"/></TextLine><TextLine id="line_processed_8"><Coords points="1441,712 1647,712 1647,689 1441,689 1441,712"/></TextLine><TextLine id="line_processed_9"><Coords points="1475,738 1496,738 1496,734 1475,734 1475,738"/></TextLine><TextLine id="line_processed_10"><Coords points="1560,744 1604,744 1604,730 1560,730 1560,744"/></TextLine><TextLine id="line_processed_11"><Coords points="1322,751 1414,751 1414,735 1322,735 1322,751"/></TextLine><TextLine id="line_processed_12"><Coords points="874,759 938,759 938,748 874,748 874,759"/></TextLine><TextLine id="line_processed_13"><Coords points="1301,822 1460,822 1460,806 1301,806 1301,822"/></TextLine><TextLine id="line_processed_14"><Coords points="866,833 1183,817 1181,794 865,810 866,833"/></TextLine></TextRegion>
+  </Page>
+</PcGts>

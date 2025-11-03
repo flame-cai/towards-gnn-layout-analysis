@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T03:12:18.595069Z</Created>
+    <LastChange>2025-09-20T03:12:18.595069Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1102" imageFilename="tarkasangrahah-sateekah2_page_030.jpg">
+    <TextRegion id="region_193" custom="0">
+      <Coords points="2209,327 2220,353 2225,405 2235,523 2235,556 2232,888 2142,888 2142,847 2146,405 2148,385 2154,353 2160,327"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="2205,884 2210,331 2173,330 2168,884 2205,884"/></TextLine><TextLine id="line_processed_2"><Coords points="2012,136 2088,136 2088,110 2012,110 2012,136"/></TextLine><TextLine id="line_processed_3"><Coords points="423,125 645,125 645,95 423,95 423,125"/></TextLine><TextLine id="line_processed_4"><Coords points="256,247 256,294 272,294 272,247 256,247"/></TextLine><TextLine id="line_processed_5"><Coords points="2106,179 388,176 388,213 2105,216 2106,179"/></TextLine><TextLine id="line_processed_6"><Coords points="2115,239 390,245 390,274 2115,268 2115,239"/></TextLine><TextLine id="line_processed_7"><Coords points="2117,292 385,293 385,323 2117,321 2117,292"/></TextLine><TextLine id="line_processed_8"><Coords points="2123,351 387,355 388,387 2123,383 2123,351"/></TextLine><TextLine id="line_processed_9"><Coords points="2124,399 371,406 371,437 2124,431 2124,399"/></TextLine><TextLine id="line_processed_10"><Coords points="455,488 2051,484 2051,450 455,455 455,488"/></TextLine><TextLine id="line_processed_11"><Coords points="2032,520 459,517 459,546 2031,550 2032,520"/></TextLine><TextLine id="line_processed_12"><Coords points="2049,563 457,570 457,598 2049,591 2049,563"/></TextLine><TextLine id="line_processed_13"><Coords points="2046,622 452,624 452,660 2046,658 2046,622"/></TextLine><TextLine id="line_processed_14"><Coords points="383,716 2149,716 2149,680 383,680 383,716"/></TextLine><TextLine id="line_processed_15"><Coords points="2136,743 390,747 390,776 2136,772 2136,743"/></TextLine><TextLine id="line_processed_16"><Coords points="2140,799 384,804 384,832 2140,827 2140,799"/></TextLine><TextLine id="line_processed_17"><Coords points="2144,854 380,860 380,901 2144,895 2144,854"/></TextLine></TextRegion>
+    <TextRegion id="region_194" custom="0">
+      <Coords points="2065,89 2092,92 2092,148 2065,158 2008,158 2008,89"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_195" custom="0">
+      <Coords points="649,72 649,148 419,148 419,73 608,72"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_196" custom="0">
+      <Coords points="289,243 289,298 240,298 240,243"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_197" custom="0">
+      <Coords points="2128,449 1998,455 1678,457 1257,458 1205,458 368,455 368,384 385,168 418,154 517,150 577,150 1723,152 1934,155 2068,162 2110,165 2119,217 2127,328 2128,380"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_198" custom="0">
+      <Coords points="2055,506 2053,605 2050,664 1980,673 1955,676 1840,680 1383,685 1323,685 496,681 449,676 449,602 452,440 562,434 1002,429 1046,429 2055,434"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_199" custom="0">
+      <Coords points="2153,734 2148,908 1886,919 1837,921 1321,926 935,928 879,928 768,926 563,922 421,915 377,911 377,832 379,666 423,659 750,654 1161,654 2096,657 2153,664"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

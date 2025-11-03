@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T03:38:59.414775Z</Created>
+    <LastChange>2025-09-20T03:38:59.414775Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1177" imageFilename="vrittaratnakarah_page_053.jpg">
+    <TextRegion id="region_220" custom="0">
+      <Coords points="796,254 832,259 832,349 796,354 637,361 565,361 565,265 732,254"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="567,334 830,322 828,279 565,291 567,334"/></TextLine><TextLine id="line_processed_2"><Coords points="1897,335 1993,335 1993,291 1897,291 1897,335"/></TextLine><TextLine id="line_processed_3"><Coords points="2046,368 497,390 498,470 2047,448 2046,368"/></TextLine><TextLine id="line_processed_4"><Coords points="2019,501 517,513 517,590 2019,578 2019,501"/></TextLine><TextLine id="line_processed_5"><Coords points="517,703 2025,703 2025,629 517,629 517,703"/></TextLine><TextLine id="line_processed_6"><Coords points="496,832 2008,832 2008,752 496,752 496,832"/></TextLine></TextRegion>
+    <TextRegion id="region_221" custom="0">
+      <Coords points="1961,261 1997,265 1997,365 1944,365 1893,364 1893,261"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_223" custom="0">
+      <Coords points="2050,480 2029,741 2012,860 1936,875 1120,880 1031,880 572,860 492,851 492,730 495,346 620,340 1739,324 1871,324 2050,359"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

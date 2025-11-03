@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-18T05:30:55.472654Z</Created>
+    <LastChange>2025-09-18T05:30:55.472654Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1313" imageFilename="44_0009.jpg">
+    <TextRegion id="region_61" custom="0">
+      <Coords points="171,240 206,247 206,299 110,299 110,240"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="114,280 202,280 202,258 114,258 114,280"/></TextLine><TextLine id="line_processed_2"><Coords points="262,350 2195,343 2195,283 262,289 262,350"/></TextLine><TextLine id="line_processed_3"><Coords points="2194,374 257,397 258,445 2194,422 2194,374"/></TextLine><TextLine id="line_processed_4"><Coords points="259,515 2188,505 2188,455 259,464 259,515"/></TextLine><TextLine id="line_processed_5"><Coords points="277,592 2192,592 2192,546 277,546 277,592"/></TextLine><TextLine id="line_processed_6"><Coords points="2203,624 275,624 275,670 2203,670 2203,624"/></TextLine><TextLine id="line_processed_7"><Coords points="2207,708 262,696 262,743 2207,755 2207,708"/></TextLine><TextLine id="line_processed_8"><Coords points="2208,789 279,778 279,827 2208,837 2208,789"/></TextLine><TextLine id="line_processed_9"><Coords points="2194,879 268,854 267,902 2194,928 2194,879"/></TextLine><TextLine id="line_processed_10"><Coords points="2211,960 216,937 216,996 2211,1019 2211,960"/></TextLine></TextRegion>
+    <TextRegion id="region_62" custom="0">
+      <Coords points="2215,1025 1950,1037 1116,1042 883,1042 213,1022 213,913 259,261 1755,247 1824,247 2076,249 2121,255 2199,273 2211,679 2215,933"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

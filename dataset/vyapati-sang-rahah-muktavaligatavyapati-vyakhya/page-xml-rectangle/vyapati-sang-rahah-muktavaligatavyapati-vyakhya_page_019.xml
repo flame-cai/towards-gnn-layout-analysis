@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T03:57:01.055235Z</Created>
+    <LastChange>2025-09-20T03:57:01.055235Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1136" imageFilename="vyapati-sang-rahah-muktavaligatavyapati-vyakhya_page_019.jpg">
+    <TextRegion id="region_123" custom="0">
+      <Coords points="449,118 573,119 611,122 611,205 573,209 449,215 364,215 364,118"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="368,186 607,186 607,146 368,146 368,186"/></TextLine><TextLine id="line_processed_2"><Coords points="2151,153 2151,238 2169,238 2169,153 2151,153"/></TextLine><TextLine id="line_processed_3"><Coords points="321,268 2200,284 2200,248 321,231 321,268"/></TextLine><TextLine id="line_processed_4"><Coords points="314,318 2208,340 2208,311 314,288 314,318"/></TextLine><TextLine id="line_processed_5"><Coords points="2202,364 299,343 299,371 2202,392 2202,364"/></TextLine><TextLine id="line_processed_6"><Coords points="2214,418 314,398 314,432 2214,452 2214,418"/></TextLine><TextLine id="line_processed_7"><Coords points="749,530 1758,539 1758,495 749,486 749,530"/></TextLine><TextLine id="line_processed_8"><Coords points="748,611 1758,606 1758,567 748,572 748,611"/></TextLine><TextLine id="line_processed_9"><Coords points="1337,627 1100,627 1100,661 1337,661 1337,627"/></TextLine><TextLine id="line_processed_10"><Coords points="299,723 2197,737 2197,704 299,689 299,723"/></TextLine><TextLine id="line_processed_11"><Coords points="304,775 2194,788 2194,762 304,749 304,775"/></TextLine><TextLine id="line_processed_12"><Coords points="301,821 2202,845 2202,814 301,790 301,821"/></TextLine><TextLine id="line_processed_13"><Coords points="300,868 2195,903 2195,870 300,835 300,868"/></TextLine><TextLine id="line_processed_14"><Coords points="300,923 2201,954 2201,924 300,893 300,923"/></TextLine></TextRegion>
+    <TextRegion id="region_124" custom="0">
+      <Coords points="2187,149 2187,242 2150,242 2134,234 2134,155 2150,149"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_125" custom="0">
+      <Coords points="2218,457 2186,460 1995,463 1537,469 1468,469 1191,466 311,448 296,385 296,325 318,218 469,212 542,212 1741,218 1888,220 2204,244 2212,301 2218,398"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_126" custom="0">
+      <Coords points="1762,634 1305,686 1248,686 1161,683 1096,680 745,631 745,554 746,460 945,459 1053,459 1650,472 1762,494"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_128" custom="0">
+      <Coords points="2206,862 2205,972 2145,975 2080,975 471,949 345,945 297,936 296,747 296,669 645,668 690,668 1330,673 2146,692 2201,703 2206,798"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

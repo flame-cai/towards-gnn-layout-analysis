@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-30T11:38:32.700710Z</Created>
+    <LastChange>2025-09-30T11:38:32.700710Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1249" imageFilename="1481_0001.jpg">
+    <TextRegion id="region_0" custom="0">
+      <Coords points="1633,712 1630,746 1614,794 1605,802 1561,802 1375,801 1008,797 208,269 208,194 226,185 279,185 1570,414 1628,584 1633,679"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="212,250 319,250 319,212 212,212 212,250"/></TextLine><TextLine id="line_processed_2"><Coords points="1077,459 1566,459 1566,434 1077,434 1077,459"/></TextLine><TextLine id="line_processed_3"><Coords points="1486,481 1157,479 1157,493 1486,496 1486,481"/></TextLine><TextLine id="line_processed_4"><Coords points="1010,558 1243,558 1243,540 1010,540 1010,558"/></TextLine><TextLine id="line_processed_5"><Coords points="1565,547 1376,550 1376,562 1565,559 1565,547"/></TextLine><TextLine id="line_processed_6"><Coords points="1624,595 1005,595 1005,618 1624,618 1624,595"/></TextLine><TextLine id="line_processed_7"><Coords points="1015,671 1412,671 1412,651 1015,651 1015,671"/></TextLine><TextLine id="line_processed_8"><Coords points="1629,692 1455,699 1456,714 1630,707 1629,692"/></TextLine><TextLine id="line_processed_9"><Coords points="1012,721 1263,719 1263,704 1012,706 1012,721"/></TextLine><TextLine id="line_processed_10"><Coords points="1349,730 1626,732 1626,720 1349,718 1349,730"/></TextLine><TextLine id="line_processed_11"><Coords points="1011,780 1263,777 1263,759 1011,761 1011,780"/></TextLine><TextLine id="line_processed_12"><Coords points="1364,786 1610,787 1610,774 1364,773 1364,786"/></TextLine></TextRegion>
+  </Page>
+</PcGts>

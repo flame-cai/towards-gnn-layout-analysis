@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T04:23:27.816529Z</Created>
+    <LastChange>2025-09-20T04:23:27.816529Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1510" imageFilename="bhagavatamahatmyam-padmapuranagatam1_page_029.jpg">
+    <TextRegion id="region_135" custom="0">
+      <Coords points="575,45 718,51 764,53 764,133 575,145 483,145 483,45"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="487,116 760,116 760,74 487,74 487,116"/></TextLine><TextLine id="line_processed_2"><Coords points="2061,135 2165,135 2165,91 2061,91 2061,135"/></TextLine><TextLine id="line_processed_3"><Coords points="343,175 2190,208 2191,161 344,128 343,175"/></TextLine><TextLine id="line_processed_4"><Coords points="334,250 2195,275 2195,232 334,208 334,250"/></TextLine><TextLine id="line_processed_5"><Coords points="321,316 2201,340 2201,298 321,274 321,316"/></TextLine><TextLine id="line_processed_6"><Coords points="337,383 2221,407 2221,365 337,341 337,383"/></TextLine><TextLine id="line_processed_7"><Coords points="341,445 2241,473 2241,430 341,403 341,445"/></TextLine><TextLine id="line_processed_8"><Coords points="335,516 2238,539 2238,495 336,472 335,516"/></TextLine><TextLine id="line_processed_9"><Coords points="2232,560 344,543 344,584 2232,602 2232,560"/></TextLine><TextLine id="line_processed_10"><Coords points="330,652 2256,665 2256,623 330,610 330,652"/></TextLine><TextLine id="line_processed_11"><Coords points="2255,696 340,677 340,721 2255,739 2255,696"/></TextLine><TextLine id="line_processed_12"><Coords points="338,786 2272,804 2272,765 338,747 338,786"/></TextLine><TextLine id="line_processed_13"><Coords points="2239,834 347,815 347,858 2238,877 2239,834"/></TextLine><TextLine id="line_processed_14"><Coords points="297,929 2266,939 2266,894 297,885 297,929"/></TextLine><TextLine id="line_processed_15"><Coords points="348,995 2275,1011 2275,970 348,954 348,995"/></TextLine><TextLine id="line_processed_16"><Coords points="2292,1036 353,1027 353,1067 2292,1076 2292,1036"/></TextLine><TextLine id="line_processed_17"><Coords points="353,1131 2316,1146 2316,1104 353,1088 353,1131"/></TextLine><TextLine id="line_processed_18"><Coords points="2331,1165 366,1171 366,1213 2331,1208 2331,1165"/></TextLine><TextLine id="line_processed_19"><Coords points="363,1267 2333,1281 2333,1239 363,1225 363,1267"/></TextLine><TextLine id="line_processed_20"><Coords points="2284,1289 361,1315 362,1367 2376,1339 2375,1288 2339,1288 2339,1288 2339,1289 2339,1289 2338,1289 2338,1289 2337,1289 2337,1289 2337,1289 2284,1289"/></TextLine></TextRegion>
+    <TextRegion id="region_136" custom="0">
+      <Coords points="2138,62 2169,68 2169,165 2120,165 2057,156 2057,62"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_137" custom="0">
+      <Coords points="2381,1375 1860,1385 1363,1388 1298,1388 622,1377 462,1370 356,1363 294,941 294,875 318,270 340,136 372,126 701,120 1086,113 1239,113 1572,120 2008,136 2143,144 2194,155 2245,424 2381,1251"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

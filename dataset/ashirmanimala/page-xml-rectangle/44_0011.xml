@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-18T05:31:37.264190Z</Created>
+    <LastChange>2025-09-18T05:31:37.264190Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1278" imageFilename="44_0011.jpg">
+    <TextRegion id="region_73" custom="0">
+      <Coords points="205,256 245,257 245,312 212,312 141,311 141,256"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="145,294 241,294 241,274 145,274 145,294"/></TextLine><TextLine id="line_processed_2"><Coords points="2200,310 288,296 288,353 2200,367 2200,310"/></TextLine><TextLine id="line_processed_3"><Coords points="296,438 2182,438 2182,396 296,396 296,438"/></TextLine><TextLine id="line_processed_4"><Coords points="287,513 2244,515 2244,471 287,470 287,513"/></TextLine><TextLine id="line_processed_5"><Coords points="2209,552 285,547 285,592 2209,597 2209,552"/></TextLine><TextLine id="line_processed_6"><Coords points="2220,631 286,625 286,669 2220,676 2220,631"/></TextLine><TextLine id="line_processed_7"><Coords points="2236,705 294,699 294,747 2235,753 2236,705"/></TextLine><TextLine id="line_processed_8"><Coords points="2230,785 289,783 289,834 2230,835 2230,785"/></TextLine><TextLine id="line_processed_9"><Coords points="2199,850 271,849 271,900 2198,901 2199,850"/></TextLine><TextLine id="line_processed_10"><Coords points="2230,934 279,923 279,992 2229,1003 2230,934"/></TextLine><TextLine id="line_processed_11"><Coords points="2301,286 2301,333 2313,333 2313,286 2301,286"/></TextLine></TextRegion>
+    <TextRegion id="region_74" custom="0">
+      <Coords points="2248,538 2234,1002 2134,1008 1910,1021 1817,1024 1190,1040 1125,1040 276,1004 268,925 268,837 285,261 390,261 1594,270 1721,271 2164,282 2204,303 2248,451"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_75" custom="0">
+      <Coords points="2315,282 2327,289 2327,330 2315,337 2287,337 2287,282"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T03:54:33.633564Z</Created>
+    <LastChange>2025-09-20T03:54:33.633564Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1104" imageFilename="vyapati-sang-rahah-muktavaligatavyapati-vyakhya_page_009.jpg">
+    <TextRegion id="region_42" custom="0">
+      <Coords points="560,105 599,107 599,190 560,195 452,196 379,196 379,113 516,105"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="382,170 595,168 595,130 382,132 382,170"/></TextLine><TextLine id="line_processed_2"><Coords points="2087,114 2087,186 2101,186 2101,114 2087,114"/></TextLine><TextLine id="line_processed_3"><Coords points="337,257 2177,257 2177,219 337,219 337,257"/></TextLine><TextLine id="line_processed_4"><Coords points="2182,278 334,274 334,300 2182,304 2182,278"/></TextLine><TextLine id="line_processed_5"><Coords points="2183,312 332,327 332,359 2184,343 2183,312"/></TextLine><TextLine id="line_processed_6"><Coords points="333,408 2195,408 2195,376 333,376 333,408"/></TextLine><TextLine id="line_processed_7"><Coords points="398,475 2110,484 2110,443 398,433 398,475"/></TextLine><TextLine id="line_processed_8"><Coords points="386,538 2113,553 2113,518 386,503 386,538"/></TextLine><TextLine id="line_processed_9"><Coords points="395,596 2109,610 2109,577 395,564 395,596"/></TextLine><TextLine id="line_processed_10"><Coords points="392,656 2108,672 2108,639 392,623 392,656"/></TextLine><TextLine id="line_processed_11"><Coords points="2106,696 390,693 390,732 2106,735 2106,696"/></TextLine><TextLine id="line_processed_12"><Coords points="2170,762 317,754 317,791 2170,798 2170,762"/></TextLine><TextLine id="line_processed_13"><Coords points="311,835 2167,838 2167,812 311,809 311,835"/></TextLine><TextLine id="line_processed_14"><Coords points="2161,864 315,860 315,893 2161,897 2161,864"/></TextLine><TextLine id="line_processed_15"><Coords points="2215,651 2215,740 2234,740 2234,651 2215,651"/></TextLine><TextLine id="line_processed_16"><Coords points="2155,644 2155,550 2119,550 2119,644 2155,644"/></TextLine></TextRegion>
+    <TextRegion id="region_43" custom="0">
+      <Coords points="2116,110 2116,190 2072,190 2072,110"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_44" custom="0">
+      <Coords points="2199,423 1880,430 1426,432 1349,432 727,431 433,424 329,420 329,310 333,205 353,198 732,194 1747,192 1808,192 1948,195 2098,203 2127,206 2181,214 2199,366"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_45" custom="0">
+      <Coords points="2117,573 2110,759 2080,760 820,760 678,757 436,746 387,737 383,549 383,489 395,425 484,413 926,408 983,408 2008,416 2096,421 2114,436 2117,497"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_46" custom="0">
+      <Coords points="2174,816 2171,860 2165,909 1689,917 1260,920 1164,920 528,907 368,902 312,889 308,846 308,792 314,742 366,731 423,729 472,729 1699,734 1818,735 1916,736 2072,745 2112,749 2174,760"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_47" custom="0">
+      <Coords points="2248,647 2251,671 2252,681 2252,710 2246,744 2198,744 2198,696 2203,647"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_48" custom="0">
+      <Coords points="2166,546 2182,567 2182,648 2093,648 2093,567 2110,546"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

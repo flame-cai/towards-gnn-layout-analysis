@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-19T13:39:16.112115Z</Created>
+    <LastChange>2025-09-19T13:39:16.112115Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1284" imageFilename="vrittaratnakarah_page_001.jpg">
+    <TextRegion id="region_0" custom="0">
+      <Coords points="1596,714 1579,756 1421,816 1375,818 1011,820 962,820 863,818 863,766 867,584 871,514 941,380 1123,370 1437,364 1521,364 1524,365 1596,673"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="945,415 1520,415 1520,386 945,386 945,415"/></TextLine><TextLine id="line_processed_2"><Coords points="1038,458 1426,459 1426,443 1038,441 1038,458"/></TextLine><TextLine id="line_processed_3"><Coords points="1296,539 1511,537 1511,517 1296,519 1296,539"/></TextLine><TextLine id="line_processed_4"><Coords points="875,540 1155,540 1155,516 875,516 875,540"/></TextLine><TextLine id="line_processed_5"><Coords points="870,600 1365,598 1365,575 870,577 870,600"/></TextLine><TextLine id="line_processed_6"><Coords points="876,672 1319,656 1318,629 875,645 876,672"/></TextLine><TextLine id="line_processed_7"><Coords points="1379,716 1592,716 1592,692 1379,692 1379,716"/></TextLine><TextLine id="line_processed_8"><Coords points="877,736 936,736 936,726 877,726 877,736"/></TextLine><TextLine id="line_processed_9"><Coords points="1292,741 1460,741 1460,723 1292,723 1292,741"/></TextLine><TextLine id="line_processed_10"><Coords points="1513,740 1575,740 1575,725 1513,725 1513,740"/></TextLine><TextLine id="line_processed_11"><Coords points="866,801 1189,794 1189,768 866,775 866,801"/></TextLine><TextLine id="line_processed_12"><Coords points="1290,803 1417,805 1417,793 1290,791 1290,803"/></TextLine></TextRegion>
+  </Page>
+</PcGts>

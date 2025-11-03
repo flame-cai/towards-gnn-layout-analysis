@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-19T14:29:10.882741Z</Created>
+    <LastChange>2025-09-19T14:29:10.882741Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1100" imageFilename="vrittaratnakarah_page_022.jpg">
+    <TextRegion id="region_60" custom="0">
+      <Coords points="526,620 526,665 494,665 480,659 480,635 494,620"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="484,649 522,649 522,635 484,635 484,649"/></TextLine><TextLine id="line_processed_2"><Coords points="846,617 549,621 549,650 846,645 846,617"/></TextLine><TextLine id="line_processed_3"><Coords points="1606,660 1945,660 1945,620 1606,620 1606,660"/></TextLine><TextLine id="line_processed_4"><Coords points="1538,825 1956,823 1956,788 1538,790 1538,825"/></TextLine><TextLine id="line_processed_5"><Coords points="1558,888 1961,888 1961,854 1558,854 1558,888"/></TextLine><TextLine id="line_processed_6"><Coords points="2176,720 2435,722 2435,695 2176,693 2176,720"/></TextLine><TextLine id="line_processed_7"><Coords points="2432,743 2167,749 2168,781 2433,774 2432,743"/></TextLine><TextLine id="line_processed_8"><Coords points="2159,839 2421,839 2421,811 2159,811 2159,839"/></TextLine><TextLine id="line_processed_9"><Coords points="2288,838 2312,838 2312,832 2288,832 2288,838"/></TextLine><TextLine id="line_processed_10"><Coords points="2310,853 2360,853 2360,846 2310,846 2310,853"/></TextLine><TextLine id="line_processed_11"><Coords points="2203,892 2397,892 2397,876 2203,876 2203,892"/></TextLine><TextLine id="line_processed_12"><Coords points="2372,922 2213,938 2214,951 2373,935 2372,922"/></TextLine><TextLine id="line_processed_13"><Coords points="2147,438 2283,428 2281,401 2145,410 2147,438"/></TextLine><TextLine id="line_processed_14"><Coords points="2407,64 1731,74 1731,102 2408,93 2407,64"/></TextLine><TextLine id="line_processed_15"><Coords points="2421,110 1768,129 1768,156 2422,138 2421,110"/></TextLine><TextLine id="line_processed_16"><Coords points="2437,154 1772,174 1773,206 2438,186 2437,154"/></TextLine><TextLine id="line_processed_17"><Coords points="2417,194 2117,210 2119,239 2418,223 2417,194"/></TextLine><TextLine id="line_processed_18"><Coords points="2426,239 2124,261 2126,289 2428,267 2426,239"/></TextLine><TextLine id="line_processed_19"><Coords points="2431,296 2138,307 2139,330 2432,319 2431,296"/></TextLine><TextLine id="line_processed_20"><Coords points="2438,344 2142,353 2143,381 2439,372 2438,344"/></TextLine><TextLine id="line_processed_21"><Coords points="2115,249 319,245 319,324 2115,328 2115,249"/></TextLine><TextLine id="line_processed_22"><Coords points="2138,397 334,366 333,444 2136,474 2138,397"/></TextLine><TextLine id="line_processed_23"><Coords points="350,595 2152,595 2152,531 350,531 350,595"/></TextLine><TextLine id="line_processed_24"><Coords points="341,735 2162,786 2164,709 343,658 341,735"/></TextLine><TextLine id="line_processed_25"><Coords points="1250,78 1697,78 1697,50 1250,50 1250,78"/></TextLine><TextLine id="line_processed_26"><Coords points="1714,93 1257,104 1257,129 1715,118 1714,93"/></TextLine><TextLine id="line_processed_27"><Coords points="1174,136 1173,165 1671,183 1671,172 1671,171 1671,171 1671,170 1671,170 1671,170 1671,169 1671,169 1672,169 1672,168 1672,168 1673,168 1673,168 1673,168 1674,168 1674,168 1675,168 1699,168 1700,155 1174,136"/></TextLine><TextLine id="line_processed_28"><Coords points="1191,90 538,78 538,115 1191,127 1191,90"/></TextLine><TextLine id="line_processed_29"><Coords points="356,182 618,182 618,144 356,144 356,182"/></TextLine><TextLine id="line_processed_30"><Coords points="641,229 708,229 708,214 641,214 641,229"/></TextLine><TextLine id="line_processed_31"><Coords points="1482,228 1565,228 1565,206 1482,206 1482,228"/></TextLine><TextLine id="line_processed_32"><Coords points="1754,176 1679,176 1679,202 1754,202 1754,176"/></TextLine><TextLine id="line_processed_33"><Coords points="1739,257 1831,257 1831,227 1739,227 1739,257"/></TextLine><TextLine id="line_processed_34"><Coords points="1567,379 1695,379 1695,362 1567,362 1567,379"/></TextLine><TextLine id="line_processed_35"><Coords points="641,359 741,359 741,331 641,331 641,359"/></TextLine><TextLine id="line_processed_36"><Coords points="273,333 273,360 279,360 279,333 273,333"/></TextLine><TextLine id="line_processed_37"><Coords points="372,511 417,511 417,499 372,499 372,511"/></TextLine><TextLine id="line_processed_38"><Coords points="772,511 824,511 824,495 772,495 772,511"/></TextLine><TextLine id="line_processed_39"><Coords points="753,589 753,613 757,613 757,589 753,589"/></TextLine><TextLine id="line_processed_40"><Coords points="226,419 319,419 319,385 226,385 226,419"/></TextLine></TextRegion>
+    <TextRegion id="region_61" custom="0">
+      <Coords points="834,596 850,603 850,655 834,665 802,667 635,671 579,671 546,658 546,603 579,599 786,596"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_62" custom="0">
+      <Coords points="1731,592 1891,593 1923,601 1929,606 1949,630 1949,653 1929,675 1923,677 1891,680 1731,689 1678,689 1627,676 1602,669 1602,606 1627,600 1678,592"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_63" custom="0">
+      <Coords points="1965,882 1938,900 1805,911 1778,913 1689,913 1615,909 1554,899 1535,843 1535,786 1550,769 1883,763 1923,763 1960,768 1965,833"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_64" custom="0">
+      <Coords points="2439,740 2436,797 2425,856 2377,942 2364,945 2244,963 2212,963 2155,837 2155,796 2165,726 2173,693 2212,682 2244,677 2268,674 2317,673 2350,673 2439,684"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_65" custom="0">
+      <Coords points="2265,383 2285,394 2285,429 2265,447 2238,452 2211,456 2182,458 2145,458 2145,392 2171,388 2225,383"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_66" custom="0">
+      <Coords points="2442,383 2418,394 2318,398 2184,400 2140,400 1770,208 1728,106 1728,78 1743,57 1949,49 2165,46 2201,46 2364,49 2412,68 2425,100 2441,151 2442,324"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_67" custom="0">
+      <Coords points="2166,805 2122,826 2088,828 1964,828 340,782 316,329 316,215 721,200 850,200 1284,201 1991,208 2068,220 2119,256 2141,387 2156,539 2166,688"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_68" custom="0">
+      <Coords points="1718,130 1706,165 1665,182 1605,190 1507,199 1463,201 1427,201 1345,197 1303,194 1168,182 1168,148 1246,44 1257,39 1306,28 1355,28 1615,29 1661,31 1701,36 1718,74"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_69" custom="0">
+      <Coords points="705,55 1165,64 1195,66 1195,129 1090,140 941,147 822,147 581,137 535,135 535,68 581,60 653,55"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_70" custom="0">
+      <Coords points="542,118 622,126 622,209 570,209 352,208 352,121 485,118"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_72" custom="0">
+      <Coords points="712,199 712,241 674,245 637,245 637,220 684,199"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_75" custom="0">
+      <Coords points="1569,187 1569,242 1530,248 1478,248 1478,187"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_76" custom="0">
+      <Coords points="1760,151 1760,227 1719,227 1673,226 1673,164 1719,151"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_77" custom="0">
+      <Coords points="1810,204 1835,221 1835,281 1735,281 1735,221 1758,204"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_79" custom="0">
+      <Coords points="1699,346 1699,396 1563,396 1563,346"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_81" custom="0">
+      <Coords points="1210,378 1210,396 1202,396 1202,378"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_82" custom="0">
+      <Coords points="685,309 745,317 745,355 685,381 637,381 637,309"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_83" custom="0">
+      <Coords points="291,329 291,364 262,364 262,329"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_84" custom="0">
+      <Coords points="421,486 421,525 385,525 368,519 368,488 385,486"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_85" custom="0">
+      <Coords points="828,479 828,528 783,528 768,518 768,491 783,479"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_90" custom="0">
+      <Coords points="767,585 767,617 743,617 743,585"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_92" custom="0">
+      <Coords points="323,360 323,445 222,445 222,360"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T04:01:36.587769Z</Created>
+    <LastChange>2025-09-20T04:01:36.587769Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1100" imageFilename="vyapati-sang-rahah-muktavaligatavyapati-vyakhya_page_026.jpg">
+    <TextRegion id="region_191" custom="0">
+      <Coords points="2271,89 2351,97 2351,214 1739,218 1691,218 1425,207 1425,131 1969,101 2199,89"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="1428,184 2347,178 2347,123 1428,129 1428,184"/></TextLine><TextLine id="line_processed_2"><Coords points="2118,107 2199,107 2199,73 2118,73 2118,107"/></TextLine><TextLine id="line_processed_3"><Coords points="2152,479 2152,684 2186,684 2186,479 2152,479"/></TextLine><TextLine id="line_processed_4"><Coords points="310,274 2216,263 2216,234 310,245 310,274"/></TextLine><TextLine id="line_processed_5"><Coords points="317,322 2218,312 2218,287 317,297 317,322"/></TextLine><TextLine id="line_processed_6"><Coords points="314,367 2216,361 2216,336 314,342 314,367"/></TextLine><TextLine id="line_processed_7"><Coords points="312,417 2217,417 2217,387 312,387 312,417"/></TextLine><TextLine id="line_processed_8"><Coords points="1128,174 1374,174 1374,138 1128,138 1128,174"/></TextLine><TextLine id="line_processed_9"><Coords points="609,136 341,147 343,194 611,183 609,136"/></TextLine><TextLine id="line_processed_10"><Coords points="393,829 525,829 525,810 393,810 393,829"/></TextLine><TextLine id="line_processed_11"><Coords points="381,480 2142,475 2142,439 381,444 381,480"/></TextLine><TextLine id="line_processed_12"><Coords points="385,542 2134,537 2134,503 385,509 385,542"/></TextLine><TextLine id="line_processed_13"><Coords points="385,601 2137,595 2137,563 385,569 385,601"/></TextLine><TextLine id="line_processed_14"><Coords points="2139,627 389,630 389,668 2139,664 2139,627"/></TextLine><TextLine id="line_processed_15"><Coords points="384,731 2135,725 2135,686 384,692 384,731"/></TextLine></TextRegion>
+    <TextRegion id="region_192" custom="0">
+      <Coords points="2203,49 2203,128 2178,132 2114,132 2114,49"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_193" custom="0">
+      <Coords points="2195,475 2211,483 2212,610 2212,662 2202,688 2130,688 2127,622 2127,581 2129,483 2146,475"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_194" custom="0">
+      <Coords points="2222,333 2221,436 2202,440 524,440 408,439 308,437 307,294 307,227 1824,214 1932,214 2207,221 2220,232 2222,279"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_195" custom="0">
+      <Coords points="1220,113 1378,117 1378,196 1220,200 1124,200 1124,113"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_196" custom="0">
+      <Coords points="612,110 612,200 570,206 429,223 341,223 341,116 482,110"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_198" custom="0">
+      <Coords points="498,793 529,813 529,834 498,847 434,847 389,842 389,810 450,793"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_201" custom="0">
+      <Coords points="2146,498 2143,678 2139,743 2095,748 2031,753 1953,754 764,758 703,758 572,756 437,750 381,746 378,505 378,435 428,424 668,419 1087,417 1641,417 2027,420 2146,421"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

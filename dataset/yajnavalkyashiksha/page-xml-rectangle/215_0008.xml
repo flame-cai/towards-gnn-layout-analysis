@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-18T05:48:20.750917Z</Created>
+    <LastChange>2025-09-18T05:48:20.750917Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1228" imageFilename="215_0008.jpg">
+    <TextRegion id="region_43" custom="0">
+      <Coords points="496,109 652,120 652,199 496,206 408,206 408,109"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="412,177 648,177 648,137 412,137 412,177"/></TextLine><TextLine id="line_processed_2"><Coords points="209,171 209,211 217,211 217,171 209,171"/></TextLine><TextLine id="line_processed_3"><Coords points="169,255 278,255 278,227 169,227 169,255"/></TextLine><TextLine id="line_processed_4"><Coords points="2124,149 2124,214 2138,214 2138,149 2124,149"/></TextLine><TextLine id="line_processed_5"><Coords points="2282,964 2363,964 2363,950 2282,950 2282,964"/></TextLine><TextLine id="line_processed_6"><Coords points="2282,1007 2363,1007 2363,996 2282,996 2282,1007"/></TextLine><TextLine id="line_processed_7"><Coords points="2205,253 373,237 373,276 2205,292 2205,253"/></TextLine><TextLine id="line_processed_8"><Coords points="2216,325 367,298 367,335 2216,362 2216,325"/></TextLine><TextLine id="line_processed_9"><Coords points="367,392 2220,428 2221,392 368,356 367,392"/></TextLine><TextLine id="line_processed_10"><Coords points="2219,456 369,408 368,444 2218,492 2219,456"/></TextLine><TextLine id="line_processed_11"><Coords points="2190,526 369,461 368,499 2188,564 2190,526"/></TextLine><TextLine id="line_processed_12"><Coords points="365,560 2282,634 2283,590 366,516 365,560"/></TextLine><TextLine id="line_processed_13"><Coords points="362,625 2189,684 2190,646 363,586 362,625"/></TextLine><TextLine id="line_processed_14"><Coords points="369,683 2215,745 2217,709 370,646 369,683"/></TextLine><TextLine id="line_processed_15"><Coords points="373,744 2209,800 2210,765 374,708 373,744"/></TextLine><TextLine id="line_processed_16"><Coords points="2216,831 380,758 379,796 2215,870 2216,831"/></TextLine><TextLine id="line_processed_17"><Coords points="2186,885 368,816 366,853 2185,922 2186,885"/></TextLine><TextLine id="line_processed_18"><Coords points="2232,953 372,860 371,895 2231,988 2232,953"/></TextLine><TextLine id="line_processed_19"><Coords points="2197,1008 376,920 374,958 2195,1047 2197,1008"/></TextLine></TextRegion>
+    <TextRegion id="region_44" custom="0">
+      <Coords points="230,167 230,215 197,215 197,167"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_45" custom="0">
+      <Coords points="282,206 282,277 205,277 165,267 165,211 205,206"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_46" custom="0">
+      <Coords points="2153,145 2153,218 2109,218 2109,145"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_47" custom="0">
+      <Coords points="2367,936 2367,979 2278,979 2278,936"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_48" custom="0">
+      <Coords points="2367,983 2367,1021 2278,1021 2278,983"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+    <TextRegion id="region_49" custom="0">
+      <Coords points="2285,661 2235,992 2194,1044 1938,1045 1885,1045 1749,1042 1560,1037 1239,1026 867,1010 559,984 427,972 373,960 365,842 360,632 360,566 364,282 370,218 425,211 465,211 1838,223 2209,242 2285,581"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    </TextRegion>
+  </Page>
+</PcGts>

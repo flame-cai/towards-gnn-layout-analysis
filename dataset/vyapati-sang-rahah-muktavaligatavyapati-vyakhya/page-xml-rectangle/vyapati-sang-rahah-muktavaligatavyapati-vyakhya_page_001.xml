@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T03:49:20.895581Z</Created>
+    <LastChange>2025-09-20T03:49:20.895581Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1110" imageFilename="vyapati-sang-rahah-muktavaligatavyapati-vyakhya_page_001.jpg">
+    <TextRegion id="region_0" custom="0">
+      <Coords points="1687,674 1660,710 1497,780 1448,782 1421,783 1030,783 916,782 916,733 924,468 996,329 1189,317 1512,314 1606,314 1687,632"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="1000,367 1602,367 1602,337 1000,337 1000,367"/></TextLine><TextLine id="line_processed_2"><Coords points="1100,411 1503,416 1503,396 1100,391 1100,411"/></TextLine><TextLine id="line_processed_3"><Coords points="1366,500 1628,476 1627,457 1364,481 1366,500"/></TextLine><TextLine id="line_processed_4"><Coords points="927,496 1211,479 1210,458 925,475 927,496"/></TextLine><TextLine id="line_processed_5"><Coords points="925,559 1418,560 1418,529 926,528 925,559"/></TextLine><TextLine id="line_processed_6"><Coords points="927,628 1477,621 1477,593 927,600 927,628"/></TextLine><TextLine id="line_processed_7"><Coords points="1455,656 1520,656 1520,648 1455,648 1455,656"/></TextLine><TextLine id="line_processed_8"><Coords points="1559,659 1683,659 1683,646 1559,646 1559,659"/></TextLine><TextLine id="line_processed_9"><Coords points="1467,695 1525,695 1525,679 1467,679 1467,695"/></TextLine><TextLine id="line_processed_10"><Coords points="1586,698 1656,698 1656,685 1586,685 1586,698"/></TextLine><TextLine id="line_processed_11"><Coords points="1363,700 1451,700 1451,684 1363,684 1363,700"/></TextLine><TextLine id="line_processed_12"><Coords points="930,699 989,699 989,689 930,689 930,699"/></TextLine><TextLine id="line_processed_13"><Coords points="919,768 1246,756 1245,732 918,743 919,768"/></TextLine><TextLine id="line_processed_14"><Coords points="1364,767 1493,767 1493,753 1364,753 1364,767"/></TextLine></TextRegion>
+  </Page>
+</PcGts>

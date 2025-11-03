@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PcGts xmlns="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 https://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+  <Metadata>
+    <Creator>Sanskrit Manuscript Annotation Tool</Creator>
+    <Created>2025-09-20T04:16:59.359007Z</Created>
+    <LastChange>2025-09-20T04:16:59.359007Z</LastChange>
+  </Metadata>
+  <Page imageWidth="2500" imageHeight="1524" imageFilename="bhagavatamahatmyam-padmapuranagatam1_page_001.jpg">
+    <TextRegion id="region_0" custom="0">
+      <Coords points="1552,905 1531,999 1508,1000 1433,1003 1393,1003 1035,996 876,987 875,807 875,775 888,709 955,591 1121,589 1150,589 1390,590 1486,592 1541,712 1552,866"/>
+      <TextEquiv>
+        <Unicode/>
+      </TextEquiv>
+    <TextLine id="line_processed_1"><Coords points="958,624 1482,635 1482,611 958,600 958,624"/></TextLine><TextLine id="line_processed_2"><Coords points="1042,666 1394,674 1394,658 1042,650 1042,666"/></TextLine><TextLine id="line_processed_3"><Coords points="1122,718 891,724 891,741 1122,735 1122,718"/></TextLine><TextLine id="line_processed_4"><Coords points="1277,748 1537,748 1537,728 1277,728 1277,748"/></TextLine><TextLine id="line_processed_5"><Coords points="1461,784 1069,783 1069,802 1461,804 1461,784"/></TextLine><TextLine id="line_processed_6"><Coords points="879,795 1003,795 1003,787 879,787 879,795"/></TextLine><TextLine id="line_processed_7"><Coords points="889,856 1004,856 1004,840 889,840 889,856"/></TextLine><TextLine id="line_processed_8"><Coords points="1549,880 1364,894 1366,918 1550,903 1549,880"/></TextLine><TextLine id="line_processed_9"><Coords points="888,912 1160,912 1160,888 888,888 888,912"/></TextLine><TextLine id="line_processed_10"><Coords points="1265,923 1419,923 1419,910 1265,910 1265,923"/></TextLine><TextLine id="line_processed_11"><Coords points="1491,927 1532,927 1532,915 1491,915 1491,927"/></TextLine><TextLine id="line_processed_12"><Coords points="880,976 1221,976 1221,952 880,952 880,976"/></TextLine><TextLine id="line_processed_13"><Coords points="1252,991 1528,980 1527,960 1251,971 1252,991"/></TextLine></TextRegion>
+  </Page>
+</PcGts>
