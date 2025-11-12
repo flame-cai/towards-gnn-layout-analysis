@@ -1,0 +1,246 @@
+# --- General Generation Settings ---
+# python synthetic-data-gen/generate.py --dry-run --config synthetic-data-gen/configs/histdb_synthetic.yaml
+generation:
+  num_samples: 10000 # set this less than dry run num of samples to enable VIZ
+  num_workers: -1 # -1 means use all available CPU cores
+  base_seed: 42
+  # output_dir: "./manuscript-gnn-benchmark/data/synthetic-dataset-10K-HistDB"
+  output_dir: "/home/kartik/HTR DATASETS/few_shot_competition/proposed_method/synthetic_data_gen/generated-synthetic-data"
+  dry_run_num_samples: 50 # Number of samples for a dry run
+
+# --- Visualization Settings ---
+visualization:
+  enabled: true
+  render_on_dry_run_only: true
+  coloring: "textbox" # "textbox" or "textline"
+  point_size_multiplier: 1.0
+
+# --- Page Generation ---
+page:
+  # First, decide on an orientation with given probabilities.
+  orientation_probabilities:
+    portrait: 0.90   # 47.5% chance for a portrait layout
+    landscape: 0.05  # 47.5% chance for a landscape layout
+    square: 0.05      # 5% chance for a square-like layout
+
+  # Define the distributions for each side type.
+  # Ensure these ranges have minimal overlap to create distinct rectangles.
+  long_side: { dist: "uniform_int", min: 900, max: 1100 }
+  short_side: { dist: "uniform_int", min: 622, max: 722 }
+  
+  # Define the distribution for the 'square' case.
+  square_side: { dist: "uniform_int", min: 800, max: 1200 }
+
+  
+  layout_strategy:
+    # Name of the strategy to use. Options are registered in the code.
+    # We can use a choice distribution to randomly select a strategy per page.
+    dist: "choice"
+    choices:
+      - "rejection_sampling"
+      # - "grid" # Make grid layout less frequent
+    weights: [1.0] # Example of uniform weights
+
+# --- Layout Strategy: Rejection Sampling ---
+rejection_sampling:
+  num_textboxes: { dist: "uniform_int", min: 1, max: 10 }
+  max_placement_attempts: { dist: "uniform_int", min: 30, max: 50 } # N attempts
+  max_box_generation_attempts: { dist: "uniform_int", min: 30, max: 50 } # K attempts
+  textbox_type_probabilities:
+    main_text: 0.70
+    marginalia: 0.15
+    page_number: 0.15
+
+
+
+# --- TextBox Content & Micro-Variations (Phase 1) ---
+textbox_content:
+  # Base parameters per textbox type
+  main_text:
+    font_size: { dist: "uniform_int", min: 15, max: 30 } #our manuscript actually don't have this big font size
+    lines_per_box: { dist: "uniform_int", min: 4, max: 70 }
+    words_per_line: { dist: "uniform_int", min: 1, max: 1 }
+    chars_per_word: { dist: "uniform_int", min: 6, max: 60 }
+    alignment: { dist: "choice", choices: ["left", "right", "center", "justify"], weights: [0.4, 0.1, 0.1, 0.4] }
+    interlinear_gloss_probability: 0.03 # Probability that any given line in this box will have a gloss
+    
+
+  interlinear_gloss:
+    font_size_factor: { dist: "uniform_float", min: 0.1, max: 0.5 } 
+    words_per_line: { dist: "uniform_int", min: 1, max: 3 }
+    vertical_offset_factor: { dist: "uniform_float", min: 0.3, max: 0.6 }
+    chars_per_word: { dist: "uniform_int", min: 1, max: 10 }
+    placement: { dist: "choice", choices: ["above", "below", "both"], weights: [0.4, 0.4, 0.2] }
+    character_spacing_multiplier: { dist: "normal", mean: 1.0, std: 0.3 } # Slightly varied spacing
+
+  marginalia:
+    font_size: { dist: "uniform_int", min: 3, max: 30 }
+    lines_per_box: { dist: "uniform_int", min: 1, max: 8 }
+    words_per_line: { dist: "uniform_int", min: 1, max: 1 }
+    chars_per_word: { dist: "uniform_int", min: 2, max: 20 }
+    alignment: { dist: "choice", choices: ["left", "right"], weights: [0.6, 0.4] }
+    
+  page_number:
+    font_size: { dist: "uniform_int", min: 3, max: 30 }
+    lines_per_box: { dist: "constant", value: 1 }
+    words_per_line: { dist: "uniform_int", min: 1, max: 2 }
+    chars_per_word: { dist: "uniform_int", min: 2, max: 6 }
+    alignment: { dist: "choice", choices: ["left", "right", "center"], weights: [0.3, 0.3, 0.4] }
+    
+
+
+  
+  # Spacing is defined as a multiplier of the base font_size
+  character_spacing_factor: { dist: "uniform_float", min: 1.0, max: 3 } # we might need to increase this to match 'binned_rhs_by_font_size' 
+   # Spacing is defined as a multiplier of character spacing
+  word_spacing_factor: { dist: "uniform_float", min: 1.4, max: 2.0 }
+  line_spacing_factor: { dist: "uniform_float", min: 1.1, max: 2.0 }
+
+
+  # Line Breaks
+  line_break_probability: { dist: "uniform_float", min: 0.0, max: 0.2 }
+
+   # --- NEW: Configuration for slight line length variation ---
+  line_length_variation:
+    # Max variation as a fraction of the base line length.
+    # e.g., 0.1 means lines can be up to 10% shorter or longer than the base.
+    variation_factor: { dist: "uniform_float", min: 0.0, max: 0.1 }
+  # --- END NEW ---
+
+  # Augmentations (Phase 1)
+  font_size_variation:
+    enabled: true
+    variation_factor: { dist: "normal", mean: 0.0, std: 0.1 } # Multiplicative factor. Might need to tweak
+
+  point_level_jitter:
+    enabled: true
+    # Jitter is relative to font size
+    jitter_std_factor: { dist: "uniform_float", min: 0.05, max: 0.15 }
+
+  congestion_jitter:
+    enabled: true
+    # Percentage of points to be heavily jittered
+    percentage: { dist: "uniform_float", min: 0.0, max: 0.02 }
+    # Jitter strength as a multiplier of line spacing
+    strength_factor: { dist: "uniform_float", min: 0.1, max: 0.25 }
+
+
+# --- TextBox Geometric Distortion (Phase 2) ---
+# --- TextBox Geometric Distortion (Phase 2) ---
+textbox_distortion:
+  # Each distortion has a probability of being applied
+  shear:
+    enabled: true
+    probability: 0.5
+    shear_factor_x: { dist: "uniform_float", min: -0.2, max: 0.2 }
+    shear_factor_y: { dist: "uniform_float", min: -0.2, max: 0.2 }
+  stretch:
+    enabled: true
+    probability: 0.5
+    stretch_factor_x: { dist: "uniform_float", min: 0.95, max: 1.05 }
+    stretch_factor_y: { dist: "uniform_float", min: 0.95, max: 1.05 }
+  warp_curl:
+    enabled: true
+    probability: 0.6
+    # Amplitude is relative to textbox dimensions
+    amplitude_factor: { dist: "uniform_float", min: 0.01, max: 0.03 }
+    # Frequency of the wave
+    frequency_factor_x: { dist: "uniform_float", min: 0.5, max: 0.7 }
+    frequency_factor_y: { dist: "uniform_float", min: 0.5, max: 0.7 }
+    phase_x: { dist: "uniform_float", min: 0.0, max: 6.28 } # 2*pi
+    phase_y: { dist: "uniform_float", min: 0.0, max: 6.28 }
+    
+  linear_crease:
+    enabled: true
+    probability: 1
+    num_creases: { dist: "uniform_int", min: 1, max: 2 }
+    strength: { dist: "uniform_float", min: -0.08, max: -0.01 } # Slightly stronger range
+    angle_deg: { dist: "uniform_float", min: -5.0, max: 5.0 }
+    position_factor: { dist: "uniform_float", min: -0.45, max: 0.45 }
+    crease_width_factor: { dist: "uniform_float", min: 0.05, max: 0.2 }
+    # --- ADD THESE NEW BLOCKS ---
+    # Horizontal center of the crease, as a fraction of textbox width.
+    # -0.5 is left edge, 0 is center, 0.5 is right edge.
+    crease_center_x_factor: { dist: "uniform_float", min: -0.4, max: 0.4 }
+    # Length of the crease, as a fraction of the textbox width.
+    crease_length_factor: { dist: "uniform_float", min: 0.2, max: 0.3 }
+    # --- END NEW ---
+
+# --- Page-Level Augmentations (Phase 3) ---
+page_augmentations:
+  # Textbox placement orientation (in degrees)
+  orientation_deg:
+    dist: "choice"
+    choices: [0, 90, -90, "other"]
+    weights: [0.88, 0.04, 0.04, 0.04]
+  # If "other" is chosen, sample from this distribution
+  orientation_other_range: { dist: "uniform_float", min: -45, max: 45 }
+
+  # Point Dropout (Missing Characters)
+  point_dropout:
+    enabled: true
+    probability: { dist: "uniform_float", min: 0.04, max: 0.125 }
+
+
+
+# --- Layout Strategy: Grid ---
+grid_layout:
+  rows: { dist: "uniform_int", min: 10, max: 30 }
+  cols: { dist: "uniform_int", min: 10, max: 30 }
+  spacing: { dist: "uniform_float", min: 25.0, max: 50.0 }
+  # For grid, we only apply a limited set of augmentations
+  augmentations:
+    - "point_level_jitter"
+    - "font_size_variation"
+    - "point_dropout"
+    # Note: Rotation is handled via the textbox orientation parameter
+
+
+textbox_splitting:
+  enabled: true
+  probability: 0.1
+
+  # A value between 0.0 and 0.5. When a textbox's aspect ratio is skewed,
+  # this value is added to the probability of the 'natural' split direction
+  # and subtracted from the other, biasing the choice.
+  # 0.0 = no bias, 0.5 = maximum bias.
+  aspect_ratio_bias: 0.45
+
+  # Base probabilities for splitting. These will be adjusted by the aspect ratio bias.
+  split_method_probabilities:
+    horizontal: 0.5
+    vertical: 0.5
+    internal_crop: 0.0
+
+  augmentation:
+    enabled: true
+    font_size_factor: { dist: "uniform_float", min: 0.8, max: 1.2 }
+    rotation_deg: { dist: "uniform_float", min: -1.0, max: 1.0 }
+
+    # --- NEW: Directional shift factors ---
+    # For horizontal splits, shift mainly along X axis.
+    horizontal_split_shift_x_factor: { dist: "uniform_float", min: -0.05, max: 0.05 }
+    horizontal_split_shift_y_factor: { dist: "uniform_float", min: -0.05, max: 0.05 }
+    # For vertical splits, shift mainly along Y axis.
+    vertical_split_shift_x_factor: { dist: "uniform_float", min: -0.05, max: 0.05 }
+    vertical_split_shift_y_factor: { dist: "uniform_float", min: -0.05, max: 0.05 }
+
+    # --- NEW: Scaling for internal crops ---
+    # For internal crops, the inner box is scaled down instead of shifted.
+    internal_crop_scale_factor: { dist: "uniform_float", min: 0.8, max: 0.95 }
+
+    # --- NEW: Line reduction ---
+    # A percentage of lines to remove entirely from the augmented box, before cutting.
+    line_reduction_ratio: { dist: "uniform_float", min: 0.25, max: 0.75 } # Drop up to 80% of lines
+
+    # Probability that any *remaining* line will be cut short.
+    line_cut_short_prob: { dist: "uniform_float", min: 0.0, max: 0.10 }
+    line_cut_short_factor: { dist: "uniform_float", min: 0.2, max: 0.8 }
+
+    # --- NEW: Spacing and Scaling Augmentations ---
+    # Stretches/compresses character spacing within each line.
+    stretch_x_factor: { dist: "uniform_float", min: 0.97, max: 1.03 }
+    # Stretches/compresses the spacing between lines.
+    stretch_y_factor: { dist: "uniform_float", min: 0.97, max: 1.03 }
+    # Scales the entire split box up or down uniformly.
+    uniform_scale_factor: { dist: "uniform_float", min: 0.6, max: 1.2 }

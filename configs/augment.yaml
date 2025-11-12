@@ -1,0 +1,90 @@
+# augmentation.yaml
+
+general:
+  # input_dir: "synthetic-data-gen/manuscript-gnn-benchmark/data/real-data/unaugmented-training-dataset"
+  # output_dir: "synthetic-data-gen/manuscript-gnn-benchmark/data/real-data/train"
+  # val_output_dir: "synthetic-data-gen/manuscript-gnn-benchmark/data/real-data/validation"
+  num_augmentations_per_sample: 500
+  num_workers: -1 # Use all available CPU cores
+  base_seed: 42
+  visualize: false # Creates a PNG of some augmented samples
+  visualize_every_n: 20 # Visualize 1 out of every 20 augmented outputs
+
+# --- Phase 1: Point-level variations ---
+# These are applied first to add local noise.
+phase1_content:
+  font_size_variation:
+    enabled: true
+    probability: 0.7
+    variation_factor: { dist: "normal", mean: 0.0, std: 0.05 } # Milder variation
+
+  point_level_jitter:
+    enabled: true
+    probability: 0.9
+    jitter_std_factor: { dist: "uniform_float", min: 0.03, max: 0.1 } # Milder jitter
+
+# --- Phase 2: Geometric Distortions (Applied to whole page) ---
+# These are applied sequentially, each with its own probability.
+phase2_distortion:
+  shear:
+    enabled: true
+    probability: 0.3
+    shear_factor_x: { dist: "uniform_float", min: -0.1, max: 0.1 }
+    shear_factor_y: { dist: "uniform_float", min: -0.1, max: 0.1 }
+
+  stretch:
+    enabled: true
+    probability: 0.3
+    stretch_factor_x: { dist: "uniform_float", min: 0.98, max: 1.02 }
+    stretch_factor_y: { dist: "uniform_float", min: 0.98, max: 1.02 }
+
+  warp_curl:
+    enabled: true
+    probability: 0.4
+    amplitude_factor: { dist: "uniform_float", min: 0.005, max: 0.015 } # Milder amplitude
+    frequency_factor_x: { dist: "uniform_float", min: 0.5, max: 0.7 }
+    frequency_factor_y: { dist: "uniform_float", min: 0.5, max: 0.7 }
+    phase_x: { dist: "uniform_float", min: 0.0, max: 6.28 }
+    phase_y: { dist: "uniform_float", min: 0.0, max: 6.28 }
+
+  linear_crease:
+    enabled: true
+    probability: 0.5
+    num_creases: { dist: "uniform_int", min: 1, max: 1 }
+    strength: { dist: "uniform_float", min: -0.05, max: -0.01 } # Milder crease
+    angle_deg: { dist: "uniform_float", min: -5.0, max: 5.0 }
+    position_factor: { dist: "uniform_float", min: -0.45, max: 0.45 }
+    crease_width_factor: { dist: "uniform_float", min: 0.05, max: 0.2 }
+    crease_center_x_factor: { dist: "uniform_float", min: -0.4, max: 0.4 }
+    crease_length_factor: { dist: "uniform_float", min: 0.2, max: 0.4 }
+
+# --- Phase 3: Page-level Dropout ---
+# Applied after geometric transforms.
+phase3_page:
+  point_dropout:
+    enabled: true
+    # This is the probability that dropout will be ATTEMPTED on a sample.
+    probability: 0
+    # CORRECTED: The key now matches the unambiguous field name in the Pydantic model.
+    # This is the distribution from which the ACTUAL dropout rate is sampled.
+    dropout_probability_dist: { dist: "uniform_float", min: 0.0, max: 0.0 } # Max 1% dropout
+
+# --- Phase 4: Page-level Rigid Transforms ---
+# These are applied after distortion but before dropout.
+phase4_page:
+  page_rotation:
+    enabled: true
+    probability: 0.9
+    rotation_deg: { dist: "uniform_float", min: -3.0, max: 3.0 } # Small rotations
+
+  page_translation:
+    enabled: true
+    probability: 0.9
+    translate_x_factor: { dist: "uniform_float", min: -0.05, max: 0.05 } # Max 5% of width
+    translate_y_factor: { dist: "uniform_float", min: -0.05, max: 0.05 } # Max 5% of height
+
+  page_mirror:
+    enabled: true
+    probability: 0.9
+    horizontal_prob: 0.5 # 50% chance of horizontal flip if mirror is chosen
+    vertical_prob: 0.5   # 50% chance of vertical flip if mirror is chosen
